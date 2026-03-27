@@ -1,0 +1,290 @@
+/* Estilo para o corpo da página: define fundo com imagem, tamanho, cor de fundo rosa claro e altura */
+body {
+    background-image: url(fundo.jpg);
+    background-size: 100% 50%;
+    background-repeat:no-repeat;
+    background-position: center 15%;
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fdd6eb;
+}
+
+/* Estilo para o título principal h1: fonte serifada, tamanho grande, cor escura, centralizado, maiúsculo com espaçamento */
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin: -5px 0 20px 0;
+  
+}
+
+/* Estilo geral para h2: fonte serifada, tamanho médio, cor rosa escura, centralizado, com posição relativa alta */
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #ad1457;
+    text-align: center;
+    margin: 70px 0 20px 0;
+    position: relative; top: 630px;
+    
+}
+
+/* Estilo específico para a seção SOBRE NÓS: cor rosa, margem ajustada, sem posição relativa */
+ .SOBRE-NOS {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #e91e63;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    position: relative; top: 0;
+}
+
+/* Estilo específico para a seção SERVIÇOS: cor rosa, margem ajustada */
+ .SERVIÇOS {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #e91e63;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    position: relative; top: 0;
+}
+
+/* Estilo específico para a seção CONTATO: cor rosa, margem ajustada */
+.CONTATO {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #e91e63;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    position: relative; top: 0;
+}
+
+/* Estilo específico para a seção ENDEREÇO: cor rosa, margem maior para espaçamento */
+.ENDERECO {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #e91e63;
+    text-align: center;
+    margin: 100px 0 20px 0;
+    position: relative; top: 0;
+}
+
+.nome-rua {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+.botao-google {
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin:40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    position: relative; 
+    width: fit-content;     
+}
+
+.botao-google:hover {
+    background-color: #357ae8;
+    transform: scale(1.05);
+}
+
+.mapa-google {
+    margin: 20px auto;
+    width: 99%;
+    height: 400px;
+    position: relative; top: 20px;
+}
+
+/* Estilo para o botão de agendamento: fundo rosa, texto branco, bordas arredondadas, sombra, hover com mudança de cor e escala */
+.botao-agendamento {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin:20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    position: relative; 
+    top: 600px;
+    width: fit-content;
+    
+     
+      
+}
+.botao-agendamento:hover {
+    background-color: #c2185b;
+    transform: scale(1.05);
+}
+
+/* Estilo para o botão do Instagram: gradiente de cores do Instagram, texto branco, bordas arredondadas, sombra, hover com escala */
+.botao-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.botao-instagram:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para o carrossel de imagens: flexbox horizontal com rolagem */
+#carrossel {
+    display: flex;
+    overflow-x: auto;
+    gap: 0;
+    padding: 10px;
+}
+
+/* Estilo para as imagens do carrossel: tamanho fixo, ajuste de objeto, margem superior alta */
+#carrossel img {
+    width: 260px;
+    height: 520px;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-top: 600px;
+}
+
+/* Hover para as imagens do carrossel: leve escala */
+#carrossel img:hover {
+    transform: scale(1.04);
+    transition: transform 0.3s ease;
+}
+
+.texto-destaque-1 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+    line-height: 1.6;
+    } 
+
+.texto-destaque-2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin: 25px auto;
+    width: fit-content;
+    line-height: 2.0;
+    
+}    
+
+.texto-destaque-3 {
+    
+    background: #02df53;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 30px auto;
+     width: fit-content;
+     font-size: 1.5em;
+    
+    
+
+    
+}
+
+.texto-destaque-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+     background-color: #026311;
+    
+}
+
+.texto-destaque-4 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin: -110px auto;
+    width: fit-content;
+    line-height: 1.6;
+    
+    
+}
+
+body {
+    padding: 40px;
+}
+
+#servicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+     padding: 20px;
+
+}
+
+#servicos img  {
+    width: 250px;
+    height: 284px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative; top: 70px;
+    margin-bottom: 30px;
+    
+
+}
+
+#servicos  img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
+
+#contato {
+   margin-bottom: 120px;
+ 
+    
+}
+/* Estilo para o rodap�: fundo rosa claro, texto centralizado, margem superior */
+footer {
+    background-color: #fdd6eb;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+footer p {
+    margin: 5px 0;
+}
