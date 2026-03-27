@@ -70,12 +70,30 @@ h2 {
 .botao-google {
     background-color: #4285f4;
     color: white;
+    padding: 6px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    font-size: 1.5em;
 }
+
 
 .botao-agendamento {
     background-color: #e91e63;
     color: white;
+    padding: 6px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    font-size: 1.5em;
 }
+
 
 .botao-instagram {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
