@@ -167,8 +167,8 @@ h2 {
 
 /* Estilo para as imagens do carrossel: tamanho fixo, ajuste de objeto, margem superior alta */
 #carrossel img {
-    width: 260px;
-    height: 520px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     flex-shrink: 0;
     margin-top: 600px;
@@ -274,7 +274,7 @@ body {
  
     
 }
-/* Estilo para o rodapé: fundo rosa claro, texto centralizado, margem superior */
+/* Estilo para o rodapï¿½: fundo rosa claro, texto centralizado, margem superior */
 footer {
     background-color: #fdd6eb;
     text-align: center;
